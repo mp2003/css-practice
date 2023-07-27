@@ -1,0 +1,43 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  position: absolute;
+}
+
+.one {
+  background-image: url("images.png");
+  background-size: cover;
+  min-height: 100px;
+  min-width: 100px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  border: 3px black solid;
+}
+
+.two {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  left: -90px;
+  top: 50px;
+  border: 3px black solid;
+}
+
+.three {
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  left: -180px;
+  top: 100px;
+  border: 3px black solid;
+  z-index: -1;
+}

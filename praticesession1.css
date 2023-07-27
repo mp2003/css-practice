@@ -1,0 +1,113 @@
+* {
+  font-family: ubuntu;
+}
+body {
+  background: #f8f8f8;
+}
+
+h1 {
+  font-weight: 400;
+  color: #143774;
+  font-size: 3.375rem;
+  font-family: lora;
+  margin-top: 0;
+  margin-bottom: 0em;
+}
+h2 {
+  margin-top: 0;
+  font-weight: 700;
+
+  color: #1792d2;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  width: 350px;
+}
+ul li {
+  margin-left: 1.5em;
+}
+a {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+  color: #707070;
+  font-size: 1rem;
+}
+.container {
+  /* border: #143774 2px solid; */
+  width: 90%;
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headings {
+  /* margin-right: 5%; */
+}
+.navigation {
+  display: flex;
+}
+nav a:hover {
+  /* padding: 10px; */
+  border-bottom: #707070 2px solid;
+  color: #1792d2;
+}
+/* animation: on-hover 0.5s step-start infinite; */
+/* 
+@keyframes on-hover {
+  0% {
+    font-size: 1rem;
+  }
+  100% {
+    font-size: 1.2rem;
+  }
+} */
+@media (max-width: 635px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-weight: 400;
+    color: #143774;
+    font-size: 3.375rem;
+    font-family: lora;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0em;
+  }
+  h2 {
+    margin-top: 0;
+    font-weight: 700;
+    text-align: center;
+    color: #1792d2;
+    font-size: 1rem;
+  }
+  .navigation ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navigation ul li{
+    margin: 0.45em auto;
+  }
+  nav a:hover {
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-bottom: #707070 2px solid;
+    color: #1792d2;
+  }
+}
