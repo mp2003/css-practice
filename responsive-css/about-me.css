@@ -110,6 +110,14 @@ body {
     text-decoration: underline;
     font-weight: 400;
   }
+  .article-image{
+    border-radius: 50% 30px ;
+    position: relative;
+    max-height: 400px;
+    left: 25%;
+    
+    
+  }
   .container {
     margin: 0 auto;
     padding: 1.5em;
@@ -236,7 +244,7 @@ body {
     .aticle-image {
       width: 100%;
       orientation: portrait;
-      min-height: 300px;
+      max-height: 300px;
       object-fit: cover;
       /* object-position: left; */
     }
