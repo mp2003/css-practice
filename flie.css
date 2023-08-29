@@ -1,7 +1,5 @@
 #heading{
     text-align: center;
 }
-img {
-    position: relative;
-    left: 50%;
+img {display: flex;
 }
